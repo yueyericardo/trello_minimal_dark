@@ -2,10 +2,10 @@
 // @name         Trello Minimal Dark
 // @namespace    http://tampermonkey.net/
 // @version      0.1.1
-// @description  Make Trello Like Nullboard
-// @author       You
+// @description  Make Trello Like Nullboard (https://nullboard.io/preview)
+// @author       yueyericardo
 // @match        https://trello.com/*
-// @require http://code.jquery.com/jquery-3.4.1.min.js
+// @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @grant        unsafeWindow
 // @grant        GM_addStyle
 // @run-at       document-start
@@ -132,18 +132,20 @@ function markAllCard () {
             var marked_blur = false;
             for (var j = 0; j < a[i].children.length; j++) {
                 var b = a[i].children[j];
+                // purple label -> mark a card as done (shortcut 5)
                 if (b.classList.contains('card-label-purple') && !b.classList.contains('js-select-label')){
                     b.style.display = 'none';
                     b.parentElement.parentElement.children[1].classList.add('card-done');
                     marked_done = true;
                 }
+                // red label -> blur card (shortcut 4)
                 if (b.classList.contains('card-label-red') && !b.classList.contains('js-select-label')){
                     b.style.display = 'none';
                     b.parentElement.parentElement.children[1].classList.add('card-blur');
                     marked_blur = true;
                 }
             }
-            // if no child or has not marked
+            // if no child or has not marked, remove style
             if (!a[i].children.length || !marked_done){
                  a[i].parentElement.children[1].classList.remove('card-done');
             }
