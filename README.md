@@ -3,9 +3,11 @@
 </p>
 
 <p align="center">
-  Make Trello like <a href="https://nullboard.io/preview" rel="nofollow" class="rich-diff-level-one">Nullboard</a>
+  Make Trello like <a href="https://nullboard.io/preview" rel="nofollow" class="rich-diff-level-one">nullboard</a>
   <br>
-  <a href="https://trello.com/b/FMKNGeBx/week-template" rel="nofollow" class="rich-diff-level-one">View Demo</a>
+  <a href="https://greasyfork.org/en/scripts/426680-trello-minimal-dark" rel="nofollow" class="rich-diff-level-one">install</a>
+   · 
+  <a href="https://trello.com/b/FMKNGeBx/week-template" rel="nofollow" class="rich-diff-level-one">week template</a>
 </p>
 
 
