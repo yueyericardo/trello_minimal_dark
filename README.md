@@ -22,14 +22,17 @@
 <img height=300px src="resc/demo2.png"></a>
 </p>
 
-### 使用方法
+## 安装
+1. 安装 Tampermonkey
+1. 安装脚本：https://greasyfork.org/en/scripts/426680-trello-minimal-dark
+1. Week Template：https://trello.com/b/FMKNGeBx/week-template
 
-1: 标题：点击卡片，选择拉伸，大小选择第二种，任意颜色均可
+## 使用方法
+
+1. 划线一个任务：紫色标签（快捷键：5）
+1. 模糊一个任务：红色标签（快捷键：4）
+1. 标题：点击卡片，选择拉伸，大小选择第二种，任意颜色均可
 
 <p style="text-align: center">
-<img height=300px src="resc/demo3.png">
+    <img height=300px src="resc/demo3.png">
 </p>
-
-2: 划线一个任务：紫色标签（快捷键：5）  
-3: 模糊一个任务：红色标签（快捷键：4）
-
